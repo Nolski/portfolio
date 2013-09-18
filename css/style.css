@@ -1,3 +1,48 @@
+/**
+*	Author: Mike Nolan;
+*	
+*	Colors: [
+*		orange: #E07027,
+*		gray: #212223,
+		border-gray: #3F3F3F
+*	];
+*/
+
+body {
+	font-family: 'Helvetica';
+}
+
+header {
+	background-color: #212223;
+	color:#FFF;
+	width:100%;
+	height:73px;
+	border-bottom: solid 4px #3F3F3F;
+}
+
 nav {
 	float: right;
+}
+
+.logo {
+	float:left;
+	letter-spacing: 2px;
+	padding: 20px;
+	margin: 0;
+	color: #E07027;
+	border-right: solid 2px #3F3F3F;
+}
+
+.row {
+	clear:both;
+}
+
+.navlist > li {
+	padding: 23px;
+	font-size: 19px
+}
+
+.active {
+	color: #212223;
+	background-color: #E07027;
 }
