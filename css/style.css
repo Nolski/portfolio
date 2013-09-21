@@ -4,12 +4,14 @@
 *	Colors: [
 *		orange: #E07027,
 *		gray: #212223,
-		border-gray: #3F3F3F
+		border-gray: #3F3F3F,
+		light-gray: #D9DEE5,
+		white: #EBEBEC
 *	];
 */
 
 body {
-	font-family: 'Helvetica';
+	background-color: #D9DEE5;
 }
 
 header {
@@ -22,6 +24,10 @@ header {
 
 nav {
 	float: right;
+}
+
+section {
+	background-color: #EBEBEC;
 }
 
 .logo {
@@ -45,4 +51,32 @@ nav {
 .active {
 	color: #212223;
 	background-color: #E07027;
+}
+
+section > aside {
+	background-color: #EBEBEC;
+}
+
+.banner {
+	padding: 0;
+}
+
+.tag {
+	font-size: 13px;
+	text-align: center;
+	margin-top: 12px;
+	font-family:'HelveticaNeueW01-65Medi';
+}
+
+.title {
+	font-size: 26px;
+	text-align: center;
+	border-bottom: solid 1px;
+	padding-bottom: 10px;
+	margin-top: 0;
+	font-family:'HelveticaNeueW01-Thin';
+}
+
+.description {
+	font-size: 13px;
 }
