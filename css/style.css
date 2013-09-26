@@ -110,15 +110,21 @@ section > aside {
 	font-size: 13px;
 }
 
-@media (min-width: 768px) {
-  .navbar-collapse {
-    width: auto;
-  }
-}
-
-@media (min-width: 992px) {
+@media (max-width: 1200px) {
 	.description {
 		height: 164px;
 		overflow-y: auto;
+	}
+}
+
+@media (min-width: 768px) {
+	.navbar-collapse {
+		width: auto;
+	}
+}
+
+@media (max-width: 1000px) {
+	.description {
+		height: auto;
 	}
 }
