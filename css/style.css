@@ -47,6 +47,7 @@ section {
 
 .container {
 	padding: 0;
+	box-shadow: rgba(0, 0, 0, 0.24) -3px 3px;
 }
 
 .logo {
@@ -66,12 +67,24 @@ section {
 }
 
 .navbar-nav > li {
-	padding: 23px;
+	padding: 25px;
 	font-size: 19px
 }
 
 .navbar-nav > li:hover {
 	cursor:pointer;
+}
+
+.navbar-nav > li > a {
+	padding:0;
+	font-size: 19px;
+	color:inherit;
+	line-height: 23px;
+	background:transparent;
+}
+
+.navbar-nav > li > a:hover {
+	background:transparent;
 }
 
 .active {
@@ -123,7 +136,7 @@ section > aside {
 	}
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 991px) {
 	.description {
 		height: auto;
 	}
