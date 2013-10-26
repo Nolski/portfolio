@@ -1,1 +1,7 @@
-/bootstrap
+# Created by http://gitignore.io
+
+### SublimeText ###
+# SublimeText project files
+*.sublime-workspace
+*.sublime-project
+index_old.html
